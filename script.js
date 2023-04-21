@@ -1,4 +1,4 @@
 let myName;
 myName = "Patrycja";
-
-console.log(myName);
+const cat = String.fromCodePoint(0x1F408)
+console.log(myName, cat);
