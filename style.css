@@ -1,0 +1,84 @@
+body, nav {
+    background-color: white;
+}
+
+header, footer {
+    background-color: #576565;
+}
+
+header, a:hover, .the-sentence, h5, footer {
+    color: white;
+}
+
+a:hover, .motivation-sentence {
+    background-color: #015959;
+}
+
+.tittle, h5, footer {
+    font-family: 'Bitter', serif;
+}
+
+nav, .motivation-sentence {
+    text-align: center;
+}
+
+a, .the-sentence {
+    font-size: 25px;
+}
+
+.motivation-sentence, .the-sentence {
+    width: 50%;
+}
+
+header {
+    padding: 5px;
+}
+
+.tittle {
+    margin-left: 5%;
+}
+
+nav {
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px solid #015959;
+}
+
+a {
+    color: #015959;
+    padding: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    width: -webkit-fill-available;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.motivation-sentence {
+    padding-top: 2%;
+    height: 50%;
+}
+
+.the-sentence {
+    font-family: 'Shadows Into Light';
+    height: 60%;
+    margin: auto;
+}
+
+h5 {
+    text-align: end;
+    margin-right: 5%;
+}
+
+footer {
+    padding: 3%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: end;
+}
