@@ -1,21 +1,17 @@
-body, nav {
-    background-color: white;
-}
-
-header, footer {
-    background-color: #576565;
-}
-
 header, a:hover, .the-sentence, h5, footer {
     color: white;
 }
 
-a:hover, .motivation-sentence {
-    background-color: #015959;
-}
-
 .tittle, h5, footer {
     font-family: 'Bitter', serif;
+}
+
+body, nav {
+    background-color: white;
+}
+
+a:hover, .motivation-sentence {
+    background-color: #015959;
 }
 
 nav, .motivation-sentence {
@@ -31,6 +27,7 @@ a, .the-sentence {
 }
 
 header {
+    background-color: #576565;
     padding: 5px;
 }
 
@@ -76,7 +73,8 @@ h5 {
     margin-right: 5%;
 }
 
-footer {
+main ~ footer {
+    background-color: #576565;
     padding: 3%;
     margin-top: 5%;
     display: flex;
